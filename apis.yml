@@ -1,7 +1,30 @@
 aid: ximian
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ximian.png
 name: Ximian
-description: Ximian is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Ximian was a Boston-based open source software company founded on October
+  19, 1999 by Miguel de Icaza and Nat Friedman -- originally incorporated as International
+  GNOME Support, then Helix Code, and renamed Ximian in January 2001. It advanced
+  the GNOME desktop, built the Evolution email and collaboration client and Ximian
+  Connector, ran the Red Carpet software-update service, and launched the Mono open
+  source .NET implementation. Surfaced via the Battery Ventures portfolio, Ximian
+  was acquired by Novell on August 4, 2003 to strengthen Novell''s enterprise Linux
+  business; after Attachmate acquired Novell in 2011 the founders went on to create
+  Xamarin (acquired by Microsoft in 2016). Ximian no longer operates: www.ximian.com
+  still resolves on Novell infrastructure but permanently redirects every path to
+  novell.com/linux/ximian.html, which forwards to suse.com -- there is no live website,
+  developer portal, or public API surface. This profile is retained as a historical
+  identity record.'
 url: https://raw.githubusercontent.com/api-evangelist/ximian/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,33 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: novell
+x-acquired-date: '2003-08'
+x-defunct: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Open Source
+- Linux
+- GNOME
+- Email
+- Developer Tools
+- Acquired
+- Defunct
 apis: []
+common:
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Ximian
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

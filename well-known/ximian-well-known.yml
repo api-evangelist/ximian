@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: http://www.ximian.com
+host: http://www.ximian.com
+note: Ximian is defunct (acquired by Novell 2003-08-04). The ximian.com domain still
+  resolves (130.57.66.19, Novell infrastructure) but blanket-301-redirects every
+  path -- including all /.well-known/ documents -- to
+  https://www.novell.com/linux/ximian.html, which itself forwards to
+  https://www.suse.com/products/desktop/. No discovery surface exists; the statuses
+  below record the pre-redirect response. HTTPS on ximian.com does not respond.
+documents:
+  - path: /.well-known/security.txt
+    status: 301
+    redirect: https://www.novell.com/linux/ximian.html
+  - path: /.well-known/openid-configuration
+    status: 301
+    redirect: https://www.novell.com/linux/ximian.html
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    redirect: https://www.novell.com/linux/ximian.html
+  - path: /.well-known/api-catalog
+    status: 301
+    redirect: https://www.novell.com/linux/ximian.html
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    redirect: https://www.novell.com/linux/ximian.html
+  - path: /llms.txt
+    status: 301
+    redirect: https://www.novell.com/linux/ximian.html
