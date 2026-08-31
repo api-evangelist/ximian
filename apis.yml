@@ -70,6 +70,11 @@ tags_raw:
 - Defunct
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/microsoft/
+  name: Microsoft
+  x-relationship: acquired
+  x-evidence: "Surfaced via the Battery Ventures portfolio, Ximian was acquired by Novell on August 4, 2003 to strengthen Novell's enterprise Linux business; after Attachmate acquired Novell in 2011 the founders went on to create Xamarin (acquired by Micr"
 - type: Wikipedia
   url: https://en.wikipedia.org/wiki/Ximian
 maintainers:
